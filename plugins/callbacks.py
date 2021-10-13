@@ -51,7 +51,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("À propos de moi", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/Sharing_Club"),
+                    InlineKeyboardButton("Katnice Canal", url="https://t.me/Sharing_Club"),
                     InlineKeyboardButton("Support Group", url="https://t.me/Shar_Group")
                 ]
             ]
@@ -102,11 +102,11 @@ async def cb_handler(client, query):
                     chat = await client.get_chat(grpid)
                     title = chat.title
                 except:
-                    await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
+                    await query.message.edit_text("Assurez-vous que je suis présente dans votre groupe!!", quote=True)
                     return
             else:
                 await query.message.edit_text(
-                    "I'm not connected to any groups!\nCheck /connections or connect to any groups",
+                    "Je ne suis connecté à aucun groupe!\nVérifier /connexions ou se connecter à n'importe quel groupe",
                     quote=True
                 )
                 return
@@ -122,7 +122,7 @@ async def cb_handler(client, query):
         if (st.status == "creator") or (str(userid) in Config.AUTH_USERS):    
             await del_all(query.message, grp_id, title)
         else:
-            await query.answer("You need to be Group Owner or an Auth User to do that!",show_alert=True)
+            await query.answer("Vous devez être le propriétaire du groupe ou un utilisateur autorisé pour le faire!",show_alert=True)
     
     elif query.data == "delallcancel":
         userid = query.from_user.id
@@ -142,7 +142,7 @@ async def cb_handler(client, query):
                 except:
                     pass
             else:
-                await query.answer("Thats not for you!!",show_alert=True)
+                await query.answer("Ce n'est pas pour toi!!",show_alert=True)
 
 
     elif "groupcb" in query.data:
@@ -162,8 +162,8 @@ async def cb_handler(client, query):
 
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}:{title}"),
-                InlineKeyboardButton("DELETE", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("BACK", callback_data="backcb")]
+                InlineKeyboardButton("SUPPRIMER", callback_data=f"deletecb:{group_id}")],
+            [InlineKeyboardButton("RETOUR", callback_data="backcb")]
         ])
 
         await query.message.edit_text(
@@ -184,13 +184,13 @@ async def cb_handler(client, query):
 
         if mkact:
             await query.message.edit_text(
-                f"Connected to **{title}**",
+                f"Connecté à **{title}**",
                 parse_mode="md"
             )
             return
         else:
             await query.message.edit_text(
-                f"Some error occured!!",
+                f"Une erreur s'est produite!!",
                 parse_mode="md"
             )
             return
@@ -205,13 +205,13 @@ async def cb_handler(client, query):
 
         if mkinact:
             await query.message.edit_text(
-                f"Disconnected from **{title}**",
+                f"Déconnecté de **{title}**",
                 parse_mode="md"
             )
             return
         else:
             await query.message.edit_text(
-                f"Some error occured!!",
+                f"Une erreur s'est produite!!",
                 parse_mode="md"
             )
             return
