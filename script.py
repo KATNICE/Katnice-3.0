@@ -1,60 +1,39 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>Salut✋ {},
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+Je suis Katnice, votre serviteuse👩‍🦰🥰...!
+Je suis la réceptionniste de @Sharing_Club avec de nombreuses capacités😍😘😘 :)
 
-See <i>/help</i> for commands and more details.</b>
+Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour les commandes et plus de détails.</b>
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i>Tu ne peux pas m'ajouter à ton Groupe :)</i>
 
 
-<b>Basic Commands;</b>
+<b>Commandes de base;</b>
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+<b><i><u>Comment m'utiliser!?</u></i></b>
+<i>
+-> Pour que je t'apporte mon aide! tu doit-être membre de @Shar_Group
+-> Tu peux aussi Faire tes recherchesdirectement via mon amie Alexa 👉@Alexandrinebot
+</i>
+<b>Bot Commands (Je ne peux recevoir de message en privée) :</b>
+-> Pour que je t'apporte mon aide! tu doit-être obligatoirement membre👨‍👩‍👦‍👦 de @Shar_Group et pourquoi pas de @Sharing_Club😏✊
+-> Ecrire simplement dans le Groupe @Shar_Group le nom du film ou la série dont tu as besoin.
+-> N.B: Une seule requête par Message (Tu peux en faire plusieurs en plusieurs messages)
+-> Le plus important est de veuillez à écrire l'orthographe correcte des noms des films et des Séries.
+-> Tu peux aussi passer par mon amie Alexa (@Alexandrinebot)
 
-
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
-
-
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @TroJanzHEX</b>
+<b>© @Shar_Group</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>Mon Nom : Katnice </b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+⭕️<b>Créatrice :</b> @Sharing_Club 3.0    
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
