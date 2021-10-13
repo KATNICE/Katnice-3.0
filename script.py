@@ -22,7 +22,7 @@ Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour plus de détails.</b
 
 -> N.B: Une seule requête par Message (Si non je pourrais pas trouver automatiquement ce que tu demande)
 
--> Veuillez à écrire l'orthographe correcte des noms des films et des Séries.
+-> Veuillez à l'orthographe correcte des noms des films et des Séries.
 
 <b>© @Shar_Group</b>
 """
