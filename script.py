@@ -1,8 +1,8 @@
 class Script(object):
 
-    START_MSG = """<b>Salut✋ {},
+    START_MSG = """<b>Salut ✋ {},
 
-Je suis votre Katnice, 👩‍🦰🥰 !
+👩‍💻 Je suis votre Katnice, 👩‍🦰!
 
 La réceptionniste de @Sharing_Club avec de nombreuses capacités😍😘😘 :)
 
