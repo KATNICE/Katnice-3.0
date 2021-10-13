@@ -2,30 +2,27 @@ class Script(object):
 
     START_MSG = """<b>Salut✋ {},
 
-Je suis Katnice, votre serviteuse👩‍🦰🥰...!
+Je suis votre Katnice, 👩‍🦰🥰...!
+
 Je suis la réceptionniste de @Sharing_Club avec de nombreuses capacités😍😘😘 :)
 
-Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour les commandes et plus de détails.</b>
+Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour plus de détails.</b>
 """
 
 
     HELP_MSG = """
-<i>Tu ne peux pas m'ajouter à ton Groupe :)</i>
+<i>Tu ne peux pas m'ajouter à ton Groupe {}! :)</i>
 
-
-<b>Commandes de base;</b>
-
-<b><i><u>Comment m'utiliser!?</u></i></b>
-<i>
--> Pour que je t'apporte mon aide! tu doit-être membre de @Shar_Group
--> Tu peux aussi Faire tes recherchesdirectement via mon amie Alexa 👉@Alexandrinebot
-</i>
-<b>Bot Commands (Je ne peux recevoir de message en privée) :</b>
+<i><b>
 -> Pour que je t'apporte mon aide! tu doit-être obligatoirement membre👨‍👩‍👦‍👦 de @Shar_Group et pourquoi pas de @Sharing_Club😏✊
+
+-> Tu peux aussi Faire tes recherches directement via mon amie Alexa 👉@Alexandrinebot </b></i>
+
 -> Ecrire simplement dans le Groupe @Shar_Group le nom du film ou la série dont tu as besoin.
--> N.B: Une seule requête par Message (Tu peux en faire plusieurs en plusieurs messages)
--> Le plus important est de veuillez à écrire l'orthographe correcte des noms des films et des Séries.
--> Tu peux aussi passer par mon amie Alexa (@Alexandrinebot)
+
+-> N.B: Une seule requête par Message (Si non je pourrais pas trouver automatiquement ce que tu demande)
+
+-> Veuillez à écrire l'orthographe correcte des noms des films et des Séries.
 
 <b>© @Shar_Group</b>
 """
@@ -33,7 +30,7 @@ Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour les commandes et plu
 
     ABOUT_MSG = """⭕️<b>Mon Nom : Katnice </b>
 
-⭕️<b>Créatrice :</b> @Sharing_Club 3.0    
+⭕️<b>Créateur :</b> @SharingClub_bot   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
