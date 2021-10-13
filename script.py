@@ -2,9 +2,9 @@ class Script(object):
 
     START_MSG = """<b>Salut✋ {},
 
-Je suis votre Katnice, 👩‍🦰🥰...!
+Je suis votre Katnice, 👩‍🦰🥰 !
 
-Je suis la réceptionniste de @Sharing_Club avec de nombreuses capacités😍😘😘 :)
+La réceptionniste de @Sharing_Club avec de nombreuses capacités😍😘😘 :)
 
 Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour plus de détails.</b>
 """
