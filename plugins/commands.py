@@ -100,10 +100,10 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name</b> : {name}\n\n"
+        f"<b>Nom</b> : {name}\n\n"
         f"<b>User ID</b> : <code>{id}</code>\n\n"
-        f"<b>Username</b> : {user_name}\n\n"
-        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
+        f"<b>Nom d'utilisateur</b> : {user_name}\n\n"
+        f"<b>Lien UTILISATEUR</b> : <a href='tg://user?id={id}'>Cliquez ici!</a>\n\n"
         f"<b>DC ID</b> : {dcid}\n\n",
         quote=True,
         parse_mode="html"
@@ -217,7 +217,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Aide sur les commandes", callback_data="help_data")
                 ]
             ]
         ),
@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("Abonne-Toi?", url="https://t.me/Shar_Group"),
+                    InlineKeyboardButton("À Propos", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("Katnice Canal", url="https://t.me/Sharing_Club"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/Shar_Group")
                 ]
             ]
         ),
@@ -265,11 +265,11 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://t.me/Sharing_Club")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("RETOUR", callback_data="help_data"),
+                    InlineKeyboardButton("FERMER", callback_data="close_data"),
                 ]                
             ]
         ),
