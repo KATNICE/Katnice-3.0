@@ -30,7 +30,7 @@ Cliquez sur le bouton d'aide ci-dessous.. <i>/help</i> pour plus de détails.</b
 
     ABOUT_MSG = """⭕️<b>Mon Nom : Katnice </b>
 
-⭕️<b>Créateur :</b> @Philanthrpe   
+⭕️<b>Créateur :</b> @SharingClub_bot   
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
